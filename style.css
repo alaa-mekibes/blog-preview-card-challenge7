@@ -1,0 +1,100 @@
+/* Start variables */
+:root {
+        /* Colors */
+
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray-500: hsl(0, 0%, 42%);
+--Gray-950: hsl(0, 0%, 7%);
+
+        /* Typography */
+
+    /* Body Copy */
+
+--ParagraphSize: 16px
+}
+@media (max-width: 375px) {
+    :root {
+        --ParagraphSize: 14px
+    }
+}
+/* End variables */
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body {
+    font-family: "Figtree", serif;
+    background-color: var(--Yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Gray-950);
+}
+@media (max-width: 375px) {
+    body {
+        padding: 25px
+    }
+}
+/* End Global Rules */
+main {
+    flex-basis: 380px;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--Gray-950);
+    box-shadow: 10px 10px var(--Gray-950)
+}
+main .article-img {
+    width: 100%;
+    border-radius: 10px
+}
+main .intro span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 14px
+}
+main .intro span:first-child {
+    background-color: var(--Yellow);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 800
+}
+main .intro span:last-child {
+    font-weight: 500
+}
+main .text h1 {
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-bottom: 15px
+}
+main .text h1:hover {
+    color: var(--Yellow)
+}
+main .text p {
+    font-size: var(--ParagraphSize);
+    color: var(--Gray-500);
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-weight: 500
+}
+main .author {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+main .author img {
+    width: 30px
+}
+main .author span {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 14px
+}
