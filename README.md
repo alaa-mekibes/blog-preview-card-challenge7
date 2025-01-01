@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://alaa-mekibes.github.io/blog-preview-card-challenge7
+- Live Site URL: https://alaa-mekibes.github.io/blog-preview-card-frontend-mentor
 
 ## My process
 
