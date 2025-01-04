@@ -26,6 +26,8 @@ Users should be able to:
 
 ### Links
 
+- Solution link: https://www.frontendmentor.io/solutions/blog-preview-card-using-flex-box-Vts2BVuWOS
+  
 - Live Site URL: https://alaa-mekibes.github.io/blog-preview-card-frontend-mentor
 
 ## My process
